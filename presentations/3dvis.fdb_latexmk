@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1530255858 "3dvis.tex" "3dvis.pdf" "3dvis" 1530255859
+["pdflatex"] 1530256019 "3dvis.tex" "3dvis.pdf" "3dvis" 1530256021
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1525040097 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1525040101 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1525040101 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -174,11 +174,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1525040116 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1530110848 2587179 fcbc6712a0ee436de343220061605fd9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1530110837 7906416 3cd4a8899ad2b0d72967f91e2c0d0730 ""
-  "3dvis.aux" 1530255859 3835 0b056b90490fd2a7162a50a9753b58fb ""
-  "3dvis.nav" 1530255859 2142 c3e70e651abb732966c19fc4606f1781 ""
-  "3dvis.out" 1530255859 144 e7315828bd7a88ca0d33ebbb65951f5d ""
-  "3dvis.tex" 1530255798 3434 30afb6c4854f4788fc6f6870b828b6a3 ""
-  "3dvis.toc" 1530255859 149 b117cde8b6272dc2daaf6ca127256ce0 ""
+  "3dvis.aux" 1530256021 3835 0b056b90490fd2a7162a50a9753b58fb ""
+  "3dvis.nav" 1530256021 2142 c3e70e651abb732966c19fc4606f1781 ""
+  "3dvis.out" 1530256021 144 e7315828bd7a88ca0d33ebbb65951f5d ""
+  "3dvis.tex" 1530256012 3434 f9b4f87597dbdc9a192e3990e5da06a7 ""
+  "3dvis.toc" 1530256021 149 b117cde8b6272dc2daaf6ca127256ce0 ""
   "images/cam.pdf" 1530255652 15415 b16256e74588536d4502e32002cdd3d8 ""
   "images/disp0.jpg" 1530255652 8633 d7694530ad78b0bec41b1f19954a3cc6 ""
   "images/im0.jpg" 1530255652 7628 eb883cc21a90d19351ad2410e9352ea4 ""
@@ -189,10 +189,10 @@
   "images/stereo_1.pdf" 1530255652 12619 afbbf12728a6e647b5a07d4f50d52f25 ""
   "images/stereo_2.pdf" 1530255652 31543 1cf3e9da9a0bc5c36e075aae7d10fc35 ""
   (generated)
+  "3dvis.toc"
+  "3dvis.snm"
   "3dvis.out"
   "3dvis.nav"
-  "3dvis.toc"
   "3dvis.aux"
-  "3dvis.snm"
-  "3dvis.log"
   "3dvis.pdf"
+  "3dvis.log"
