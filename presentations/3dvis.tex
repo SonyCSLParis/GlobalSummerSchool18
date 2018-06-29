@@ -134,5 +134,45 @@
     \tableofcontents[sectionstyle=show/shaded]
 \end{frame}
 \begin{frame}{Principle}
+    \begin{columns}
+        \begin{column}{0.45\textwidth}
+            \centering
+            RGB Images
+
+            \includegraphics[width=0.3\textwidth]{images/rgb000.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb001.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb002.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb003.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb004.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb005.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb006.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb007.jpg}
+            \includegraphics[width=0.3\textwidth]{images/rgb008.jpg}
+        \end{column}
+        \begin{column}{0.1\textwidth}
+$\Rightarrow$
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \centering
+            Point Cloud
+
+             \includegraphics[width=\textwidth]{images/pointcloud.png}
+        \end{column}
+    \end{columns}
+        \vspace{2em}
+    \begin{block}{Solutions}
+        Free and open source: colmap, openMVG+openMVS, \dots
+
+        Commercial: agisoft, \dots
+
+    \end{block}
+\end{frame}
+\begin{frame}{Pipeline}
+    \begin{itemize}
+        \item Feature detection and computation
+        \item Feature matching
+        \item Pose estimation
+        \item Dense point cloud generation
+    \end{itemize}
 \end{frame}
 \end{document}

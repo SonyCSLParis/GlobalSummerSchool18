@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -769,7 +769,60 @@ Package pdftex.def Info: images/disp0.jpg  used on input line 130.
 
  <./images/im0.jpg> <./images/im1.jpg> <./images/disp0.jpg>] (./3dvis.toc) [15
 
-] [16
+]
+<images/rgb000.jpg, id=503, 309.72858pt x 206.48572pt>
+File: images/rgb000.jpg Graphic file (type jpg)
+<use images/rgb000.jpg>
+Package pdftex.def Info: images/rgb000.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb001.jpg, id=504, 309.72858pt x 206.48572pt>
+File: images/rgb001.jpg Graphic file (type jpg)
+<use images/rgb001.jpg>
+Package pdftex.def Info: images/rgb001.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb002.jpg, id=505, 309.72858pt x 206.48572pt>
+File: images/rgb002.jpg Graphic file (type jpg)
+<use images/rgb002.jpg>
+Package pdftex.def Info: images/rgb002.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb003.jpg, id=506, 309.72858pt x 206.48572pt>
+File: images/rgb003.jpg Graphic file (type jpg)
+<use images/rgb003.jpg>
+Package pdftex.def Info: images/rgb003.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb004.jpg, id=507, 309.72858pt x 206.48572pt>
+File: images/rgb004.jpg Graphic file (type jpg)
+<use images/rgb004.jpg>
+Package pdftex.def Info: images/rgb004.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb005.jpg, id=508, 309.72858pt x 206.48572pt>
+File: images/rgb005.jpg Graphic file (type jpg)
+<use images/rgb005.jpg>
+Package pdftex.def Info: images/rgb005.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb006.jpg, id=509, 309.72858pt x 206.48572pt>
+File: images/rgb006.jpg Graphic file (type jpg)
+<use images/rgb006.jpg>
+Package pdftex.def Info: images/rgb006.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb007.jpg, id=510, 309.72858pt x 206.48572pt>
+File: images/rgb007.jpg Graphic file (type jpg)
+<use images/rgb007.jpg>
+Package pdftex.def Info: images/rgb007.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/rgb008.jpg, id=511, 309.72858pt x 206.48572pt>
+File: images/rgb008.jpg Graphic file (type jpg)
+<use images/rgb008.jpg>
+Package pdftex.def Info: images/rgb008.jpg  used on input line 169.
+(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
+<images/pointcloud.png, id=512, 1128.46594pt x 687.31781pt>
+File: images/pointcloud.png Graphic file (type png)
+<use images/pointcloud.png>
+Package pdftex.def Info: images/pointcloud.png  used on input line 169.
+(pdftex.def)             Requested size: 138.2795pt x 84.21552pt.
+ [16
+
+ <./images/rgb000.jpg> <./images/rgb001.jpg> <./images/rgb002.jpg> <./images/rgb003.jpg> <./images/rgb004.jpg> <./images/rgb005.jpg> <./images/rgb006.jpg> <./images/rgb007.jpg> <./images/rgb008.jpg> <./images/pointcloud.png (PNG copy)>] [17
 
 ]
 \tf@nav=\write6
@@ -781,27 +834,27 @@ Package pdftex.def Info: images/disp0.jpg  used on input line 130.
 \tf@snm=\write8
 \openout8 = `3dvis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./3dvis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `3dvis.out' has not changed.
 (rerunfilecheck)             Checksum: E7315828BD7A88CA0D33EBBB65951F5D;144.
  ) 
 Here is how much of TeX's memory you used:
- 16945 strings out of 492649
- 318501 string characters out of 6135778
+ 17031 strings out of 492649
+ 320428 string characters out of 6135778
  398560 words of memory out of 5000000
- 20399 multiletter control sequences out of 15000+600000
+ 20473 multiletter control sequences out of 15000+600000
  11297 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,799b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on 3dvis.pdf (16 pages, 229881 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on 3dvis.pdf (17 pages, 4495409 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 477 compressed objects within 5 object streams
- 36 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
