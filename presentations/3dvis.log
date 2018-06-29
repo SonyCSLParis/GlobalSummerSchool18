@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,6 +825,41 @@ Package pdftex.def Info: images/pointcloud.png  used on input line 169.
  <./images/rgb000.jpg> <./images/rgb001.jpg> <./images/rgb002.jpg> <./images/rgb003.jpg> <./images/rgb004.jpg> <./images/rgb005.jpg> <./images/rgb006.jpg> <./images/rgb007.jpg> <./images/rgb008.jpg> <./images/pointcloud.png (PNG copy)>] [17
 
 ]
+<images/sift.png, id=565, 177.3024pt x 118.041pt>
+File: images/sift.png Graphic file (type png)
+<use images/sift.png>
+Package pdftex.def Info: images/sift.png  used on input line 183.
+(pdftex.def)             Requested size: 153.64493pt x 102.29317pt.
+<images/matches.png, id=567, 225.0006pt x 74.9199pt>
+File: images/matches.png Graphic file (type png)
+<use images/matches.png>
+Package pdftex.def Info: images/matches.png  used on input line 183.
+(pdftex.def)             Requested size: 307.28987pt x 102.31953pt.
+ [18
+
+ <./images/sift.png> <./images/matches.png>] [19
+
+] [20
+
+] [21
+
+]
+<images/poses.png, id=674, 2080.77374pt x 1343.0175pt>
+File: images/poses.png Graphic file (type png)
+<use images/poses.png>
+Package pdftex.def Info: images/poses.png  used on input line 214.
+(pdftex.def)             Requested size: 307.28987pt x 198.32903pt.
+ [22
+
+ <./images/poses.png (PNG copy)>]
+<images/depthmap.png, id=699, 357.7365pt x 237.0456pt>
+File: images/depthmap.png Graphic file (type png)
+<use images/depthmap.png>
+Package pdftex.def Info: images/depthmap.png  used on input line 218.
+(pdftex.def)             Requested size: 307.28987pt x 203.62735pt.
+ [23
+
+ <./images/depthmap.png>]
 \tf@nav=\write6
 \openout6 = `3dvis.nav'.
 
@@ -834,27 +869,27 @@ Package pdftex.def Info: images/pointcloud.png  used on input line 169.
 \tf@snm=\write8
 \openout8 = `3dvis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
  (./3dvis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
 Package rerunfilecheck Info: File `3dvis.out' has not changed.
 (rerunfilecheck)             Checksum: E7315828BD7A88CA0D33EBBB65951F5D;144.
  ) 
 Here is how much of TeX's memory you used:
- 17031 strings out of 492649
- 320428 string characters out of 6135778
+ 17079 strings out of 492649
+ 321083 string characters out of 6135778
  398560 words of memory out of 5000000
- 20473 multiletter control sequences out of 15000+600000
- 11297 words of font info for 41 fonts, out of 8000000 for 9000
+ 20504 multiletter control sequences out of 15000+600000
+ 12179 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,799b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 3dvis.pdf (17 pages, 4495409 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on 3dvis.pdf (23 pages, 5936578 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 38 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 779 PDF objects out of 1000 (max. 8388607)
+ 664 compressed objects within 7 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

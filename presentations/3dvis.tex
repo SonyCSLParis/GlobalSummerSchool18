@@ -172,7 +172,48 @@ $\Rightarrow$
         \item Feature detection and computation
         \item Feature matching
         \item Pose estimation
+        \item Bundle adjustment
         \item Dense point cloud generation
     \end{itemize}
+\end{frame}
+\begin{frame}{Feature detection and matching}
+    \centering
+         \includegraphics[width=.5\textwidth]{images/sift.png}
+         \includegraphics[width=\textwidth]{images/matches.png}
+\end{frame}
+\begin{frame}{Pose estimation}
+    For every match of a real world point $\mathbf{x} = (x, y, z)$, between a camera pair $k_1, k_2$. Let $x_1 = (i_1, j_1)$ be the pixel in view $k_1$, and $x_2 = (i_2, j_2)$ be the corresponding pixel in view $k_2$. We get the equations:
+
+    $$F(R_1 \mathbf{x} + T_1) = \mathbf{x}_1$$
+    $$F(R_2 \mathbf{x} + T_2) = \mathbf{x}_2$$
+
+    For every match, we add 4 equations and 3 unknowns. With enough matches, we can recover the relative pose of the two views up to a homotopy of the whole space.
+\end{frame}
+\begin{frame}{Pose estimation}
+    Iterating this over all pairs of images we obtain:
+    \begin{itemize}
+        \item The relative pose of all cameras.
+        \item A sparse set of 3D points corresponding to the matches.
+    \end{itemize}
+\end{frame}
+\begin{frame}{Bundle adjustment}
+    Refine the pose of all cameras and the position of all points simultaneously:
+
+    \[
+        \min_{R_i, T_i, F, x_i} \sum_i \sum_j v_{i,j} d(F(R_i x_i + T_i), y_i)^2,
+    \]
+    where:
+    \begin{itemize}
+        \item $R_i, T_i, F$: camera parameters,
+        \item $x_i$: 3D points,
+        \item $d$: euclidian distance.
+    \end{itemize}
+\end{frame}
+\begin{frame}{Result (colmap)}
+    \includegraphics[width=\textwidth]{images/poses.png}
+\end{frame}
+\begin{frame}{Dense point cloud}
+    We compute stereo disparity maps in each pair of images:
+    \includegraphics[width=\textwidth]{images/depthmap.png}
 \end{frame}
 \end{document}
