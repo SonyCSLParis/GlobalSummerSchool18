@@ -1,0 +1,163 @@
+%\documentclass[notes,xcolor={x11names,dvipsnames,svgnames},compress]{beamer}
+\documentclass[notes,xcolor={x11names,dvipsnames,svgnames},compress]{beamer}
+
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{empheq}
+\usepackage{pgf}
+\usepackage{import}
+%\usepackage{media9}
+%\usepackage{movie15}
+\usepackage{multimedia}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{tikz}
+
+\newsavebox{\picbox}
+
+\newcommand{\cutpic}[3]{
+  \savebox{\picbox}{\includegraphics[width=#2]{#3}}
+  \tikz\node [draw, rounded corners=#1, line width=4pt,
+    color=white, minimum width=\wd\picbox,
+    minimum height=\ht\picbox, path picture={
+      \node at (path picture bounding box.center) {
+        \usebox{\picbox}};
+    }] {};}
+%\usepackage{xmpmulti}
+
+%\usepackage{natbib}
+%\usepackage{pgfpages}
+%\setbeameroption{notes on second screen=left}
+
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathmorphing}
+
+\useoutertheme[subsection=false,shadow]{miniframes}
+\useinnertheme{default}
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+%\usefonttheme{serif}
+%\usepackage{palatino}
+%\usepackage{pifont}
+
+%\usefonttheme{professionalfonts}
+%\usefonttheme{serif}
+%\usepackage{uarial}
+\renewcommand{\familydefault}{\sfdefault}
+
+%\usepackage{fontspec}
+%\setmainfont{Helvetica Neue}
+%\setmainfont{Arial}
+
+\definecolor{sand}{RGB}{242,240,218}
+\definecolor{romi}{RGB}{53,168,100}
+\setbeamerfont{title like}{shape=\scshape}
+\setbeamerfont{frametitle}{shape=\scshape}
+
+\setbeamercolor*{lower separation line head}{bg=sand}
+\setbeamercolor*{palette tertiary}{fg=black,bg=black!10}
+\setbeamercolor*{palette quaternary}{fg=black,bg=black!10}
+
+\setbeamercolor*{lower separation line head}{bg=romi}
+\setbeamercolor*{normal text}{fg=Black,bg=white}
+\setbeamercolor*{alerted text}{fg=red}
+\setbeamercolor*{example text}{fg=sand}
+\setbeamercolor*{structure}{fg=romi}
+
+\setbeamercolor*{palette tertiary}{fg=romi,bg=sand}
+\setbeamercolor*{palette quaternary}{fg=romi,bg=sand}
+
+\renewcommand{\(}{\begin{columns}}
+\renewcommand{\)}{\end{columns}}
+\newcommand{\<}[1]{\begin{column}{#1}}
+\renewcommand{\>}{\end{column}}
+
+\definecolor{mycol}{rgb}{.4, .8, .6}
+\newcommand*\mycolbox[1]{%
+\colorbox{mycol}{\hspace{1em}#1\hspace{1em}}}
+\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{sidebar right}{}
+\setbeamertemplate{footline}{\large
+\hfill\usebeamertemplate***{navigation symbols}
+\hspace{1cm}\insertframenumber{}/\inserttotalframenumber}
+
+\graphicspath{{figs/}}
+
+
+\lstset{language=Python}
+
+\begin{document}
+\usebackgroundtemplate{
+   \tikz\node[opacity=0.5]
+   {\includegraphics[height=.8\paperheight]{pics/saladeverte.png}};}
+   %{\includegraphics[width=\paperwidth,height=\paperwidth]{/home/kodda/Dropbox/Bambi_notes/BambiDay_june2014/figs/haga.png}};}
+
+\begin{frame}
+
+\title{Computer vision for multiscale crop monitoring}
+
+\author{david.colliaux@csl.sony.fr}
+%\date{
+       
+%       \hspace{1cm}
+%}
+\titlepage
+
+\vspace{.5cm}
+
+\end{frame}
+
+\usebackgroundtemplate{}
+
+\input{intro} 
+
+\section{Segmentation}
+
+\input{segmentation}
+
+%\input{cropmonitoring} 
+
+%\input{plantscan} 
+
+\begin{frame}{Conclusion}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Generic architecture
+
+\includegraphics[width=\linewidth]{pics/hier}
+\end{column}
+\begin{column}{0.45\textwidth}
+
+\begin{itemize}
+\item Vision algorithms including models of the architecture and growth of plants.
+\item Task specific algorithms (Deep learning: SegNet, PoseNet, MatchNet,...).
+\end{itemize}
+
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+\end{document}

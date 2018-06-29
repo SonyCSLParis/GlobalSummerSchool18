@@ -1,0 +1,56 @@
+%\documentclass{standalone}
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,decorations.pathreplacing,decorations.markings}
+\usepackage{amsmath,bm,times}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\renewcommand{\familydefault}{\sfdefault}
+
+%\usepackage{fontspec}
+%\setmainfont[BoldFont={Roboto-Bold.ttf},
+%ItalicFont={Roboto-LightItalic.ttf},
+%BoldItalicFont={Roboto-BoldItalic.ttf}
+%]{Roboto-Light.ttf}
+%\setmainfont{Roboto}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+
+\definecolor{rpi}{RGB}{0,134,59}
+\definecolor{ard}{RGB}{16,162,174}
+\definecolor{sand}{RGB}{242,240,218}
+\definecolor{romi}{RGB}{53,168,100}
+
+
+\tikzstyle{human}=[draw,fill=sand, text width=7em, text centered, minimum height = 4em]
+
+\begin{tikzpicture}
+\node (A) {\includegraphics[width=3em]{IA}};
+\path (A.south)+(0,0) node (A_lab) {$A(t)$};
+
+\path (A.east)+(3,0) node (IA) {\includegraphics[width=3em]{IIA}};
+\path (IA.south)+(0,0) node (IA_lab)  {$I(t)A(t)$};
+\path (IA.north)+(0,0.5) node (IA_lab) [human] {Elongation};
+
+\path (IA.east)+(2.5,.5) node (IIA) {\includegraphics[width=6em]{IIAA}};
+\path (IIA.south)+(0,1.5) node (IIA_lab)  {$I(t)[A(t)]_{\alpha(t)}A(t)$};
+\path (IIA.north)+(0,-0.8) node (IIA_lab) [human] {Branching};
+
+\path (IIA.east)+(2,-.7) node (IF) {\includegraphics[width=3em]{IF}};
+\path (IF.south)+(0,0) node (IF_lab)  {$F$};
+\path (IF.north)+(0,0.7) node (IIA_lab) [human] {Flowering};
+
+\draw [->] (A.east) -- (IA.west);
+
+\end{tikzpicture}
+\end{document}

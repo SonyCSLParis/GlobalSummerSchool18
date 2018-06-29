@@ -1,0 +1,46 @@
+%\documentclass{standalone}
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,decorations.pathreplacing,decorations.markings}
+\usepackage{amsmath,bm,times}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\renewcommand{\familydefault}{\sfdefault}
+
+%\usepackage{fontspec}
+%\setmainfont[BoldFont={Roboto-Bold.ttf},
+%ItalicFont={Roboto-LightItalic.ttf},
+%BoldItalicFont={Roboto-BoldItalic.ttf}
+%]{Roboto-Light.ttf}
+%\setmainfont{Roboto}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+
+\definecolor{rpi}{RGB}{0,134,59}
+\definecolor{ard}{RGB}{16,162,174}
+\definecolor{sand}{RGB}{242,240,218}
+\definecolor{romi}{RGB}{53,168,100}
+
+
+\tikzstyle{human}=[draw,fill=sand, text width=4cm, text centered, minimum height = 4em]
+
+
+
+\begin{tikzpicture}
+\node (conts) {\includegraphics[width=20cm]{single_0_guess}};
+\path (conts.east)+(-2,3.5) node (mod) [human] {Plant growth model \& environment parameters};
+
+\draw [->] (6.5,1) -- (mod) -- (8.5,1);
+
+\end{tikzpicture}
+\end{document}
