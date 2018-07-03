@@ -1,4 +1,4 @@
-PWD /home/twintz/Repos/gss18/presentations
+PWD /home/twintz/Repos/gss18/presentation_3d
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT 3dvis.tex
@@ -321,6 +321,16 @@ INPUT ./images/stereo_1.pdf
 INPUT images/stereo_2.pdf
 INPUT ./images/stereo_2.pdf
 INPUT ./images/stereo_2.pdf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
+INPUT images/epi-left.png
+INPUT ./images/epi-left.png
+INPUT ./images/epi-left.png
+INPUT images/epi-right.png
+INPUT ./images/epi-right.png
+INPUT ./images/epi-right.png
+INPUT images/epipolar_cost.png
+INPUT ./images/epipolar_cost.png
+INPUT ./images/epipolar_cost.png
 INPUT images/im0.jpg
 INPUT ./images/im0.jpg
 INPUT ./images/im0.jpg
@@ -386,6 +396,7 @@ INPUT ./3dvis.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
@@ -394,4 +405,6 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

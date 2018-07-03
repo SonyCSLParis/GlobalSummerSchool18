@@ -120,9 +120,29 @@
 
 \begin{frame}{Disparity map}
     \begin{block}{Goal}
-        Compute $d$ at every point in the image.
+        Compute depth at every point in the image.
     \end{block}
-    \vspace{1em}
+    First, we need to \emph{rectify} images. I.e. align images such that points in 3D space are on the same line in both images.
+    
+    Then for any pixel location $i,j$ in the left image we have to find the corresponding point $i, j-d(i,j)$ in the right image. To do this, we minimize:
+    \[ d(i,j) = \textrm{argmin}_d(C(i,j,d)),\]
+    \[ C(i,j,d) := \sum_{i',j' \in W(i,j)} \left| D_1(i',j') - D_2(i', j'-d) \right|.\]
+
+\end{frame}
+\begin{frame}{Disparity map}
+    \[ d(i,j) = \textrm{argmin}_d(C(i,j,d)),\]
+    \[ C(i,j,d) := \sum_{i',j' \in W(i,j)} \left| D_1(i',j') - D_2(i', j'-d) \right|.\]
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/epi-left.png}
+    \includegraphics[width=0.3\textwidth]{images/epi-right.png}
+    \includegraphics[width=0.3\textwidth]{images/epipolar_cost.png}
+
+    \begin{thebibliography}{9}
+\setbeamertemplate{bibliography item}[online]
+\bibitem{A} https://sourishghosh.com/2016/dense-disparity-maps-orb-descriptors/
+\end{thebibliography}
+\end{frame}
+\begin{frame}{Disparity map}
     \centering
     \includegraphics[width=0.3\textwidth]{images/im0.jpg}
     \includegraphics[width=0.3\textwidth]{images/im1.jpg}
