@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.27)  3 JUL 2018 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,7 +512,17 @@ Package: amsthm 2017/10/31 v2.20.4
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
-) (./3dvis.aux)
+) (./3dvis.aux
+
+LaTeX Warning: Label `A' multiply defined.
+
+
+LaTeX Warning: Label `A' multiply defined.
+
+
+LaTeX Warning: Label `A' multiply defined.
+
+)
 \openout1 = `3dvis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -538,12 +548,12 @@ LaTeX Font Info:    ... okay on input line 9.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=307.28987pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -670,216 +680,267 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./3dvis.toc) [2
 
-] (./3dvis.toc) [3
+]
+<images/rgb_b.jpg, id=92, 309.72858pt x 206.48572pt>
+File: images/rgb_b.jpg Graphic file (type jpg)
+<use images/rgb_b.jpg>
+Package pdftex.def Info: images/rgb_b.jpg  used on input line 26.
+(pdftex.def)             Requested size: 179.25114pt x 119.50343pt.
+<images/angle-inter.pdf, id=93, 578.36076pt x 385.84149pt>
+File: images/angle-inter.pdf Graphic file (type pdf)
+<use images/angle-inter.pdf>
+Package pdftex.def Info: images/angle-inter.pdf  used on input line 26.
+(pdftex.def)             Requested size: 179.25114pt x 119.58606pt.
+ [3
+
+ <./images/rgb_b.jpg> <./images/angle-inter.pdf>] (./3dvis.toc) [4
+
+] (./3dvis.toc) [5
 
 ]
-<images/reperes.pdf, id=115, 386.84525pt x 219.26517pt>
+<images/reperes.pdf, id=187, 386.84525pt x 219.26517pt>
 File: images/reperes.pdf Graphic file (type pdf)
 <use images/reperes.pdf>
-Package pdftex.def Info: images/reperes.pdf  used on input line 28.
-(pdftex.def)             Requested size: 307.28987pt x 174.17111pt.
- [4
+Package pdftex.def Info: images/reperes.pdf  used on input line 42.
+(pdftex.def)             Requested size: 398.3386pt x 225.77873pt.
+ [6
 
  <./images/reperes.pdf>]
 File: images/reperes.pdf Graphic file (type pdf)
 <use images/reperes.pdf>
-Package pdftex.def Info: images/reperes.pdf  used on input line 40.
-(pdftex.def)             Requested size: 215.10196pt x 121.91777pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+Package pdftex.def Info: images/reperes.pdf  used on input line 54.
+(pdftex.def)             Requested size: 278.83578pt x 158.04477pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 54.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-) [5
+) [7
 
 ]
-<images/cam.pdf, id=184, 89.5345pt x 129.08226pt>
+<images/cam.pdf, id=256, 89.5345pt x 129.08226pt>
 File: images/cam.pdf Graphic file (type pdf)
 <use images/cam.pdf>
-Package pdftex.def Info: images/cam.pdf  used on input line 62.
-(pdftex.def)             Requested size: 122.91406pt x 177.20992pt.
- [6
+Package pdftex.def Info: images/cam.pdf  used on input line 76.
+(pdftex.def)             Requested size: 159.333pt x 229.71838pt.
+
+Overfull \vbox (1.51709pt too high) detected at line 76
+ []
+
+[8
 
  <./images/cam.pdf>]
 File: images/reperes.pdf Graphic file (type pdf)
 <use images/reperes.pdf>
-Package pdftex.def Info: images/reperes.pdf  used on input line 77.
-(pdftex.def)             Requested size: 184.3758pt x 104.50333pt.
- [7
+Package pdftex.def Info: images/reperes.pdf  used on input line 91.
+(pdftex.def)             Requested size: 239.00558pt x 135.4679pt.
+ [9
 
 ]
-<images/qwe_download.png, id=250, 137.5539pt x 120.9318pt>
+<images/qwe_download.png, id=322, 137.5539pt x 120.9318pt>
 File: images/qwe_download.png Graphic file (type png)
 <use images/qwe_download.png>
-Package pdftex.def Info: images/qwe_download.png  used on input line 95.
-(pdftex.def)             Requested size: 92.1879pt x 81.05154pt.
- [8
+Package pdftex.def Info: images/qwe_download.png  used on input line 109.
+(pdftex.def)             Requested size: 119.50279pt x 105.06587pt.
+ [10
 
- <./images/qwe_download.png>] [9
-
-] (./3dvis.toc) [10
+ <./images/qwe_download.png>] [11
 
 ]
-<images/stereo.pdf, id=331, 259.67014pt x 177.0615pt>
+\openout4 = `3dvis.vrb'.
+
+ (./3dvis.vrb) [12
+
+ </usr/share/texmf-dist/tex/latex/beamer/beamericononline.pdf>] (./3dvis.toc) [13
+
+]
+<images/stereo.pdf, id=515, 259.67014pt x 177.0615pt>
 File: images/stereo.pdf Graphic file (type pdf)
 <use images/stereo.pdf>
-Package pdftex.def Info: images/stereo.pdf  used on input line 110.
-(pdftex.def)             Requested size: 307.28987pt x 209.5413pt.
- [11
+Package pdftex.def Info: images/stereo.pdf  used on input line 136.
+(pdftex.def)             Requested size: 318.67209pt x 217.3034pt.
+ [14
 
  <./images/stereo.pdf>]
-<images/stereo_1.pdf, id=366, 259.67014pt x 177.0615pt>
+<images/stereo_1.pdf, id=550, 259.67014pt x 177.0615pt>
 File: images/stereo_1.pdf Graphic file (type pdf)
 <use images/stereo_1.pdf>
-Package pdftex.def Info: images/stereo_1.pdf  used on input line 114.
-(pdftex.def)             Requested size: 307.28987pt x 209.5413pt.
- [12
-
- <./images/stereo_1.pdf>]
-<images/stereo_2.pdf, id=402, 259.67014pt x 177.0615pt>
-File: images/stereo_2.pdf Graphic file (type pdf)
-<use images/stereo_2.pdf>
-Package pdftex.def Info: images/stereo_2.pdf  used on input line 118.
-(pdftex.def)             Requested size: 307.28987pt x 209.5413pt.
- [13
-
- <./images/stereo_2.pdf>] [14
-
-]
-<images/epi-left.png, id=479, 385.44pt x 289.08pt>
-File: images/epi-left.png Graphic file (type png)
-<use images/epi-left.png>
-Package pdftex.def Info: images/epi-left.png  used on input line 144.
-(pdftex.def)             Requested size: 92.1879pt x 69.138pt.
-<images/epi-right.png, id=480, 385.44pt x 289.08pt>
-File: images/epi-right.png Graphic file (type png)
-<use images/epi-right.png>
-Package pdftex.def Info: images/epi-right.png  used on input line 144.
-(pdftex.def)             Requested size: 92.1879pt x 69.138pt.
-<images/epipolar_cost.png, id=481, 659.1024pt x 442.2924pt>
-File: images/epipolar_cost.png Graphic file (type png)
-<use images/epipolar_cost.png>
-Package pdftex.def Info: images/epipolar_cost.png  used on input line 144.
-(pdftex.def)             Requested size: 92.1879pt x 61.85977pt.
+Package pdftex.def Info: images/stereo_1.pdf  used on input line 140.
+(pdftex.def)             Requested size: 318.67209pt x 217.3034pt.
  [15
 
- <./images/epi-left.png (PNG copy)> <./images/epi-right.png (PNG copy)> <./images/epipolar_cost.png> </usr/share/texmf-dist/tex/latex/beamer/beamericononline.pdf>]
-<images/im0.jpg, id=591, 143.53625pt x 98.3675pt>
-File: images/im0.jpg Graphic file (type jpg)
-<use images/im0.jpg>
-Package pdftex.def Info: images/im0.jpg  used on input line 150.
-(pdftex.def)             Requested size: 92.1879pt x 63.1786pt.
-<images/im1.jpg, id=592, 143.53625pt x 98.3675pt>
-File: images/im1.jpg Graphic file (type jpg)
-<use images/im1.jpg>
-Package pdftex.def Info: images/im1.jpg  used on input line 150.
-(pdftex.def)             Requested size: 92.1879pt x 63.1786pt.
-<images/disp0.jpg, id=593, 143.53625pt x 98.3675pt>
-File: images/disp0.jpg Graphic file (type jpg)
-<use images/disp0.jpg>
-Package pdftex.def Info: images/disp0.jpg  used on input line 150.
-(pdftex.def)             Requested size: 92.1879pt x 63.1786pt.
+ <./images/stereo_1.pdf>]
+<images/stereo_2.pdf, id=585, 259.67014pt x 177.0615pt>
+File: images/stereo_2.pdf Graphic file (type pdf)
+<use images/stereo_2.pdf>
+Package pdftex.def Info: images/stereo_2.pdf  used on input line 144.
+(pdftex.def)             Requested size: 318.67209pt x 217.3034pt.
  [16
 
- <./images/im0.jpg> <./images/im1.jpg> <./images/disp0.jpg>] (./3dvis.toc) [17
+ <./images/stereo_2.pdf>] [17
 
 ]
-<images/rgb000.jpg, id=647, 309.72858pt x 206.48572pt>
+<images/epi-left.png, id=662, 385.44pt x 289.08pt>
+File: images/epi-left.png Graphic file (type png)
+<use images/epi-left.png>
+Package pdftex.def Info: images/epi-left.png  used on input line 170.
+(pdftex.def)             Requested size: 119.50279pt x 89.62709pt.
+<images/epi-right.png, id=663, 385.44pt x 289.08pt>
+File: images/epi-right.png Graphic file (type png)
+<use images/epi-right.png>
+Package pdftex.def Info: images/epi-right.png  used on input line 170.
+(pdftex.def)             Requested size: 119.50279pt x 89.62709pt.
+<images/epipolar_cost.png, id=664, 659.1024pt x 442.2924pt>
+File: images/epipolar_cost.png Graphic file (type png)
+<use images/epipolar_cost.png>
+Package pdftex.def Info: images/epipolar_cost.png  used on input line 170.
+(pdftex.def)             Requested size: 119.50279pt x 80.18959pt.
+pdfTeX warning (ext4): destination with the same identifier (name{beamerbibA}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \end{frame}
+                  [18
+
+ <./images/epi-left.png (PNG copy)> <./images/epi-right.png (PNG copy)> <./images/epipolar_cost.png>]
+<images/im0.jpg, id=692, 143.53625pt x 98.3675pt>
+File: images/im0.jpg Graphic file (type jpg)
+<use images/im0.jpg>
+Package pdftex.def Info: images/im0.jpg  used on input line 176.
+(pdftex.def)             Requested size: 119.50279pt x 81.89864pt.
+<images/im1.jpg, id=693, 143.53625pt x 98.3675pt>
+File: images/im1.jpg Graphic file (type jpg)
+<use images/im1.jpg>
+Package pdftex.def Info: images/im1.jpg  used on input line 176.
+(pdftex.def)             Requested size: 119.50279pt x 81.89864pt.
+<images/disp0.jpg, id=694, 143.53625pt x 98.3675pt>
+File: images/disp0.jpg Graphic file (type jpg)
+<use images/disp0.jpg>
+Package pdftex.def Info: images/disp0.jpg  used on input line 176.
+(pdftex.def)             Requested size: 119.50279pt x 81.89864pt.
+ [19
+
+ <./images/im0.jpg> <./images/im1.jpg> <./images/disp0.jpg>]
+\openout4 = `3dvis.vrb'.
+
+ (./3dvis.vrbpdfTeX warning (ext4): destination with the same identifier (name{beamerbibA}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5         \bibitem{A}
+                       \small https://docs.opencv.org/3.1.0/dc/dbb/tutorial\...) [20
+
+] (./3dvis.toc) [21
+
+]
+<images/rgb000.jpg, id=774, 309.72858pt x 206.48572pt>
 File: images/rgb000.jpg Graphic file (type jpg)
 <use images/rgb000.jpg>
-Package pdftex.def Info: images/rgb000.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb001.jpg, id=648, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb000.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb001.jpg, id=775, 309.72858pt x 206.48572pt>
 File: images/rgb001.jpg Graphic file (type jpg)
 <use images/rgb001.jpg>
-Package pdftex.def Info: images/rgb001.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb002.jpg, id=649, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb001.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb002.jpg, id=776, 309.72858pt x 206.48572pt>
 File: images/rgb002.jpg Graphic file (type jpg)
 <use images/rgb002.jpg>
-Package pdftex.def Info: images/rgb002.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb003.jpg, id=650, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb002.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb003.jpg, id=777, 309.72858pt x 206.48572pt>
 File: images/rgb003.jpg Graphic file (type jpg)
 <use images/rgb003.jpg>
-Package pdftex.def Info: images/rgb003.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb004.jpg, id=651, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb003.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb004.jpg, id=778, 309.72858pt x 206.48572pt>
 File: images/rgb004.jpg Graphic file (type jpg)
 <use images/rgb004.jpg>
-Package pdftex.def Info: images/rgb004.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb005.jpg, id=652, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb004.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb005.jpg, id=779, 309.72858pt x 206.48572pt>
 File: images/rgb005.jpg Graphic file (type jpg)
 <use images/rgb005.jpg>
-Package pdftex.def Info: images/rgb005.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb006.jpg, id=653, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb005.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb006.jpg, id=780, 309.72858pt x 206.48572pt>
 File: images/rgb006.jpg Graphic file (type jpg)
 <use images/rgb006.jpg>
-Package pdftex.def Info: images/rgb006.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb007.jpg, id=654, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb006.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb007.jpg, id=781, 309.72858pt x 206.48572pt>
 File: images/rgb007.jpg Graphic file (type jpg)
 <use images/rgb007.jpg>
-Package pdftex.def Info: images/rgb007.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/rgb008.jpg, id=655, 309.72858pt x 206.48572pt>
+Package pdftex.def Info: images/rgb007.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/rgb008.jpg, id=782, 309.72858pt x 206.48572pt>
 File: images/rgb008.jpg Graphic file (type jpg)
 <use images/rgb008.jpg>
-Package pdftex.def Info: images/rgb008.jpg  used on input line 189.
-(pdftex.def)             Requested size: 41.48427pt x 27.65381pt.
-<images/pointcloud.png, id=656, 1128.46594pt x 687.31781pt>
+Package pdftex.def Info: images/rgb008.jpg  used on input line 236.
+(pdftex.def)             Requested size: 53.77588pt x 35.84882pt.
+<images/pointcloud.png, id=783, 1128.46594pt x 687.31781pt>
 File: images/pointcloud.png Graphic file (type png)
 <use images/pointcloud.png>
-Package pdftex.def Info: images/pointcloud.png  used on input line 189.
-(pdftex.def)             Requested size: 138.2795pt x 84.21552pt.
- [18
+Package pdftex.def Info: images/pointcloud.png  used on input line 236.
+(pdftex.def)             Requested size: 179.25114pt x 109.17603pt.
+ [22
 
- <./images/rgb000.jpg> <./images/rgb001.jpg> <./images/rgb002.jpg> <./images/rgb003.jpg> <./images/rgb004.jpg> <./images/rgb005.jpg> <./images/rgb006.jpg> <./images/rgb007.jpg> <./images/rgb008.jpg> <./images/pointcloud.png (PNG copy)>] [19
+ <./images/rgb000.jpg> <./images/rgb001.jpg> <./images/rgb002.jpg> <./images/rgb003.jpg> <./images/rgb004.jpg> <./images/rgb005.jpg> <./images/rgb006.jpg> <./images/rgb007.jpg> <./images/rgb008.jpg> <./images/pointcloud.png (PNG copy)>] [23
 
 ]
-<images/sift.png, id=709, 177.3024pt x 118.041pt>
+<images/sift.png, id=835, 177.3024pt x 118.041pt>
 File: images/sift.png Graphic file (type png)
 <use images/sift.png>
-Package pdftex.def Info: images/sift.png  used on input line 203.
-(pdftex.def)             Requested size: 153.64493pt x 102.29317pt.
-<images/matches.png, id=710, 225.0006pt x 74.9199pt>
+Package pdftex.def Info: images/sift.png  used on input line 250.
+(pdftex.def)             Requested size: 179.25114pt x 119.34113pt.
+<images/matches.png, id=836, 225.0006pt x 74.9199pt>
 File: images/matches.png Graphic file (type png)
 <use images/matches.png>
-Package pdftex.def Info: images/matches.png  used on input line 203.
-(pdftex.def)             Requested size: 307.28987pt x 102.31953pt.
- [20
+Package pdftex.def Info: images/matches.png  used on input line 250.
+(pdftex.def)             Requested size: 358.50229pt x 119.3724pt.
 
- <./images/sift.png> <./images/matches.png>] [21
+Overfull \vbox (11.51224pt too high) detected at line 250
+ []
 
-] [22
+[24
 
-] [23
+ <./images/sift.png> <./images/matches.png>] [25
+
+] [26
+
+] [27
 
 ]
-<images/poses.png, id=815, 2080.77374pt x 1343.0175pt>
+<images/poses.png, id=942, 2080.77374pt x 1343.0175pt>
 File: images/poses.png Graphic file (type png)
 <use images/poses.png>
-Package pdftex.def Info: images/poses.png  used on input line 234.
-(pdftex.def)             Requested size: 307.28987pt x 198.32903pt.
- [24
+Package pdftex.def Info: images/poses.png  used on input line 282.
+(pdftex.def)             Requested size: 312.42009pt x 201.6606pt.
+ [28
 
  <./images/poses.png (PNG copy)>]
-<images/depthmap.png, id=840, 357.7365pt x 237.0456pt>
+<images/depthmap.png, id=968, 357.7365pt x 237.0456pt>
 File: images/depthmap.png Graphic file (type png)
 <use images/depthmap.png>
-Package pdftex.def Info: images/depthmap.png  used on input line 238.
-(pdftex.def)             Requested size: 307.28987pt x 203.62735pt.
- [25
+Package pdftex.def Info: images/depthmap.png  used on input line 286.
+(pdftex.def)             Requested size: 398.3386pt x 263.95923pt.
 
- <./images/depthmap.png>]
+Overfull \vbox (51.4871pt too high) detected at line 286
+ []
+
+[29
+
+ <./images/depthmap.png>]pdfTeX warning (ext4): destination with the same identifier (name{beamerbibA}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.292 \end{frame}
+                  [30
+
+]
 \tf@nav=\write6
 \openout6 = `3dvis.nav'.
 
@@ -889,27 +950,31 @@ Package pdftex.def Info: images/depthmap.png  used on input line 238.
 \tf@snm=\write8
 \openout8 = `3dvis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
-(./3dvis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+ (./3dvis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `3dvis.out' has not changed.
-(rerunfilecheck)             Checksum: E7315828BD7A88CA0D33EBBB65951F5D;144.
+(rerunfilecheck)             Checksum: 366A796A1F800296AA15014E48097645;186.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 17127 strings out of 492649
- 322280 string characters out of 6135778
- 398578 words of memory out of 5000000
- 20543 multiletter control sequences out of 15000+600000
- 12535 words of font info for 45 fonts, out of 8000000 for 9000
+ 17177 strings out of 492649
+ 322920 string characters out of 6135778
+ 398622 words of memory out of 5000000
+ 20572 multiletter control sequences out of 15000+600000
+ 13008 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,799b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 3dvis.pdf (25 pages, 6418856 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on 3dvis.pdf (30 pages, 6736867 bytes).
 PDF statistics:
- 932 PDF objects out of 1000 (max. 8388607)
- 786 compressed objects within 8 object streams
- 55 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1088 PDF objects out of 1200 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 \usepackage[utf8]{inputenc}
 
 \title{Introduction to 3D vision}
@@ -11,6 +11,20 @@
 \begin{frame}
 \titlepage
 \end{frame}
+
+\section{Context}
+\begin{frame}
+    \tableofcontents[sectionstyle=show/shaded]
+\end{frame}
+\begin{frame}{Context}
+
+    \centering
+    Extract phyllotaxic parameters of plants:
+
+    \includegraphics[width=0.45\textwidth]{images/rgb_b.jpg}
+    \includegraphics[width=0.45\textwidth]{images/angle-inter.pdf}
+\end{frame}
+
 
 \section{Camera model}
 
@@ -101,20 +115,32 @@
         6 parameters: 3 for $R$, 3 for $T$.
     \end{block}
 \end{frame}
+\begin{frame}[fragile]{OpenCV}
+    Camera calibration:
+    \begin{thebibliography}{9}
+        \setbeamertemplate{bibliography item}[online]
+        \bibitem{A}\small https://docs.opencv.org/3.1.0/dc/dbb/tutorial\_py\_calibration.html
+    \end{thebibliography}
+    \begin{verbatim}
+        ret, mtx, dist, rvecs, tvecs =
+        cv2.calibrateCamera(objpoints, imgpoints,
+        gray.shape[::-1],None,None)
+    \end{verbatim}
+\end{frame}
 \section{Stereo vision}
 \begin{frame}
     \tableofcontents[sectionstyle=show/shaded]
 \end{frame}
 \begin{frame}{Basic principle}
-    \includegraphics[width=\textwidth]{images/stereo.pdf}
+    \includegraphics[width=0.8\textwidth]{images/stereo.pdf}
 \end{frame}
 
 \begin{frame}{Basic principle}
-    \includegraphics[width=\textwidth]{images/stereo_1.pdf}
+    \includegraphics[width=0.8\textwidth]{images/stereo_1.pdf}
 \end{frame}
 
 \begin{frame}{Basic principle}
-    \includegraphics[width=\textwidth]{images/stereo_2.pdf}
+    \includegraphics[width=0.8\textwidth]{images/stereo_2.pdf}
 \end{frame}
 
 
@@ -149,6 +175,27 @@
     \includegraphics[width=0.3\textwidth]{images/disp0.jpg}
 \end{frame}
 
+
+\begin{frame}[fragile]{OpenCV}
+    Stereo depth:
+    \begin{thebibliography}{9}
+        \setbeamertemplate{bibliography item}[online]
+        \bibitem{A}\small https://docs.opencv.org/3.1.0/dc/dbb/tutorial\_py\_calibration.html
+    \end{thebibliography}
+    \begin{verbatim}
+       import numpy as np
+       import cv2
+       from matplotlib import pyplot as plt
+       
+       imgL = cv2.imread('tsukuba_l.png',0)
+       imgR = cv2.imread('tsukuba_r.png',0)
+       
+       stereo = cv2.StereoBM_create(numDisparities=16, blockSize=15)
+       disparity = stereo.compute(imgL,imgR)
+       plt.imshow(disparity,'gray')
+       plt.show()
+    \end{verbatim}
+\end{frame}
 \section{Photogrammetry}
 \begin{frame}
     \tableofcontents[sectionstyle=show/shaded]
@@ -170,16 +217,16 @@
             \includegraphics[width=0.3\textwidth]{images/rgb008.jpg}
         \end{column}
         \begin{column}{0.1\textwidth}
-$\Rightarrow$
+            $\Rightarrow$
         \end{column}
         \begin{column}{0.45\textwidth}
             \centering
             Point Cloud
 
-             \includegraphics[width=\textwidth]{images/pointcloud.png}
+            \includegraphics[width=\textwidth]{images/pointcloud.png}
         \end{column}
     \end{columns}
-        \vspace{2em}
+    \vspace{2em}
     \begin{block}{Solutions}
         Free and open source: colmap, openMVG+openMVS, \dots
 
@@ -198,8 +245,8 @@ $\Rightarrow$
 \end{frame}
 \begin{frame}{Feature detection and matching}
     \centering
-         \includegraphics[width=.5\textwidth]{images/sift.png}
-         \includegraphics[width=\textwidth]{images/matches.png}
+    \includegraphics[width=.45\textwidth]{images/sift.png}
+    \includegraphics[width=0.9\textwidth]{images/matches.png}
 \end{frame}
 \begin{frame}{Pose estimation}
     For every match of a real world point $\mathbf{x} = (x, y, z)$, between a camera pair $k_1, k_2$. Let $x_1 = (i_1, j_1)$ be the pixel in view $k_1$, and $x_2 = (i_2, j_2)$ be the corresponding pixel in view $k_2$. We get the equations:
@@ -230,10 +277,17 @@ $\Rightarrow$
     \end{itemize}
 \end{frame}
 \begin{frame}{Result (colmap)}
-    \includegraphics[width=\textwidth]{images/poses.png}
+    \centering
+    \includegraphics[height=0.8\textheight]{images/poses.png}
 \end{frame}
 \begin{frame}{Dense point cloud}
     We compute stereo disparity maps in each pair of images:
     \includegraphics[width=\textwidth]{images/depthmap.png}
+\end{frame}
+\begin{frame}{Colmap documentation}
+    \begin{thebibliography}{9}
+        \setbeamertemplate{bibliography item}[online]
+        \bibitem{A} https://colmap.github.io/
+    \end{thebibliography}
 \end{frame}
 \end{document}

@@ -1,3 +1,4 @@
-\beamer@sectionintoc {1}{Camera model}{2}{0}{1}
-\beamer@sectionintoc {2}{Stereo vision}{10}{0}{2}
-\beamer@sectionintoc {3}{Photogrammetry}{17}{0}{3}
+\beamer@sectionintoc {1}{Context}{2}{0}{1}
+\beamer@sectionintoc {2}{Camera model}{4}{0}{2}
+\beamer@sectionintoc {3}{Stereo vision}{13}{0}{3}
+\beamer@sectionintoc {4}{Photogrammetry}{21}{0}{4}
