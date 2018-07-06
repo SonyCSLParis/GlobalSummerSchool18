@@ -109,11 +109,13 @@
 \end{frame}
 \begin{frame}{Summary}
     \begin{block}{Camera parameters}
-        5 to 7 parameters: $f_x, f_y, c_x, c_y, k_1, (k_2, k_3)$.
+        4 to 7 parameters: $f_x, f_y, c_x, c_y, (k_1, (k_2, k_3))$.
     \end{block}
     \begin{block}{Pose parameters}
         6 parameters: 3 for $R$, 3 for $T$.
     \end{block}
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/fileListImage.jpg}
 \end{frame}
 \begin{frame}[fragile]{OpenCV}
     Camera calibration:
@@ -124,7 +126,7 @@
     \begin{verbatim}
         ret, mtx, dist, rvecs, tvecs =
         cv2.calibrateCamera(objpoints, imgpoints,
-        gray.shape[::-1],None,None)
+        shape,None,None)
     \end{verbatim}
 \end{frame}
 \section{Stereo vision}
@@ -173,6 +175,12 @@
     \includegraphics[width=0.3\textwidth]{images/im0.jpg}
     \includegraphics[width=0.3\textwidth]{images/im1.jpg}
     \includegraphics[width=0.3\textwidth]{images/disp0.jpg}
+    Products using the technology:
+    \begin{itemize}
+        \item Zed camera
+        \item Intel realsense
+        \item \dots
+    \end{itemize}
 \end{frame}
 
 

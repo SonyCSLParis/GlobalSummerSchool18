@@ -318,6 +318,9 @@ INPUT ./images/qwe_download.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT images/fileListImage.jpg
+INPUT ./images/fileListImage.jpg
+INPUT ./images/fileListImage.jpg
 OUTPUT 3dvis.vrb
 INPUT 3dvis.vrb
 INPUT 3dvis.vrb
